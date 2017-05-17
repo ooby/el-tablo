@@ -1,0 +1,29 @@
+{
+  "frequency": 3000,
+  "restContext": "/equeue",
+  "restQuery": "/tickets",
+  "restHost": "https://dev.is-mis.ru",
+  "boards": [
+    {
+      "id": 1,
+      "resources": [
+        1
+      ],
+      "serial": "/dev/ttyUSB0",
+      "blnconf": 14,
+      "blcount": 4,
+      "blspeed": 20
+    },
+    {
+      "id": 2,
+      "resources": [
+        2,
+        4
+      ],
+      "serial": "/dev/ttyUSB1",
+      "blnconf": 14,
+      "blcount": 4,
+      "blspeed": 20
+    }
+  ]
+}
